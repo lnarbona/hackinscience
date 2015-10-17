@@ -1,13 +1,2 @@
-print('''H
-e
-l
-l
-o
-
-W
-o
-r
-l
-d
-
-!''')
+for i in ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', ' ', '!']:
+    print(i)
