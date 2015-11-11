@@ -1,4 +1,4 @@
 import datetime
-x = datetime.datetime.now().strftime("%y-%m-%d")
-y = datetime.datetime.now().strftime("%H-%M-%S")
+x = datetime.datetime.now().strftime("%Y-%m-%d")
+y = datetime.datetime.now().strftime("%X")
 print('Today is ' + x + ' and it is ' + y)
