@@ -1,2 +1,6 @@
 import sys
-print(list(enumerate(sys.argv)))
+print(sys.argv)
+n = 0
+for i in (sys.argv):
+    print(n, i)
+    n += 1
